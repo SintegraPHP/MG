@@ -9,6 +9,7 @@ if(isset($_POST['captcha']) && isset($_POST['challenge']) && isset($_POST['cnpj'
     $result = SintegraMG::consulta($_POST['cnpj'], $_POST['captcha'], $_POST['challenge']);
 
     var_dump($result);
+    die;
 
 }else
     $params = SintegraMG::getParams();

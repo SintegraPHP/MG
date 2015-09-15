@@ -1,6 +1,10 @@
 # Sintegra MG
 
 [![Travis](https://travis-ci.org/SintegraPHP/MG.svg?branch=1.0)](https://travis-ci.org/SintegraPHP/MG)
+[![Latest Stable Version](https://poser.pugx.org/sintegra-php/mg/v/stable)](https://packagist.org/packages/sintegra-php/mg) 
+[![Total Downloads](https://poser.pugx.org/sintegra-php/mg/downloads)](https://packagist.org/packages/sintegra-php/mg)
+[![Latest Unstable Version](https://poser.pugx.org/sintegra-php/mg/v/unstable)](https://packagist.org/packages/sintegra-php/mg)
+[![License](https://poser.pugx.org/sintegra-php/mg/license)](http://opensource.org/licenses/MIT)
 
 Consulte gratuitamente CNPJ no site do Sintegra/MG
 
@@ -9,7 +13,7 @@ Consulte gratuitamente CNPJ no site do Sintegra/MG
 Adicione a library
 
 ```sh
-$ composer require sintegraphp/mg
+$ composer require sintegra-php/mg
 ```
 
 Adicione o autoload.php do composer no seu arquivo PHP.

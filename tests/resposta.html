@@ -1,0 +1,319 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="/sintegra/css/sicaf/calendar.css">
+<link rel="stylesheet" href="/sintegra/css/sicaf/unifw.css">
+<link rel="stylesheet" href="/sintegra/css/new/sef.css">
+<link rel="stylesheet" href="/sintegra/css/new/jquery.selectbox.css">
+<link rel="stylesheet" href="/sintegra/css/new/jquery.countdown.css">
+<script language="javascript">var contextRoot="/sintegra"</script><script language="javascript" src="/sintegra/js/new/unifwMenuInit.js"></script><script language="javascript" src="/sintegra/js/new/jquery.js"></script><script language="javascript" src="/sintegra/js/new/jquery.selectbox.js"></script><script language="javascript" src="/sintegra/js/new/jquery.selectbox.sef.js"></script><script language="javascript" src="/sintegra/js/new/cufon-yui.js"></script><script language="javascript" src="/sintegra/js/new/Kozuka_Gothic_Pro_R_400.font.js"></script><script language="javascript" src="/sintegra/js/new/geral.js"></script><script language="javascript" src="/sintegra/js/new/jquery.countdown.js"></script>
+</head>
+<body class="sicaf">
+<div id="wrap">
+<div id="header">
+                 
+<div id="boxFuncionalidades">
+	<span style="width: 100%">SIARE - Sistema Integrado de Administração da Receita Estadual <span style="float: right; margin-right: 15px;"> Versão: 1.0  </span></span>
+	<ul id="fontSize">
+<li style="color:white">
+			Sessão expira em  
+		</li>
+		<li>
+			<div id="defaultCountdown"></div>
+		</li>
+		<li>
+			<a title="voltar" href="/sintegra/ctrl/BOOKMARK?ACAO=VOLTAR"> | Voltar |</a>
+		</li>
+		<li>
+			<a href="#" name="ajuda">Ajuda |</a>
+		</li>
+		<li>
+			<a href="/sintegra/ctrl/LOGIN?ACAO=LOGOUT">Sair</a>
+		</li>
+	</ul>
+</div>
+<div id="logo">
+	<a title="Intranet SEF - Secretaria de Estado de Fazenda" href="/sintegra">
+		<img alt="Intranet SEF - Secretaria de Estado de Fazenda" src="/sintegra/images/new/logo.png"></a>
+</div>
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			var tempoMaxSessao = "1200";
+			$('#defaultCountdown').countdown({until: +tempoMaxSessao, compact: true,format: 'MS'});
+		});
+</script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitImageControl.js"></script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitControl.js"></script><form name="form" action="/sicaf/ctrl/SICAF/GERAL/PRINCIPAL_HOME" method="GET">
+<input name="ACAO" value="" type="hidden"><script language="JavaScript" type="text/javascript">document.form.HABILITADO = 1</script>
+</form>
+
+<script language="JAVASCRIPT" type="text/javascript">
+     var index = 0;
+     for (; index < document.form.elements.length ;index++){
+         if (document.form.elements[index].type != "hidden" && !document.form.elements[index].disabled ){
+             document.form.elements[index].focus();
+             break;
+         }
+     }
+  </script>
+</div>
+<div id="containerContent">
+<div id="content" class="threeCol">
+<div id="containerNavegacao">
+	
+<div class="boxMenu">
+<ul class="menu"></ul>
+</div>
+
+</div>
+<div id="containerPublicidade"></div>
+<div id="containerConteudoPrincipal">
+<div class="boxConteudo">
+<script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitImageControl.js"></script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitControl.js"></script><script language="javascript" type="text/javascript"><!-- // --->
+</script><style type="text/css">
+	#containerNavegacao  {
+	    float: left !important;
+	    width: 174px !important; 
+	    display:none !important;
+	}
+	
+	#containerConteudoPrincipal {
+		padding-left: 15px !important;
+	}
+	
+	#fontSize{
+		display:none !important;
+	}
+	
+</style>
+<input name="ufw_selecao_registro" value="rO0ABXNyAEVnb3Yuc2VmbWcuc2ljYWYuaW5zY3JpY2FvZXN0YWR1YWwuY29uc3VsdGEubW9kZWwuQ29uc3VsdGFTaXRlZ3JhTW9kZWwSAIGyXdUlbgIAA0kACXRpcG9CdXNjYUwACWluc2NyaWNhb3QAEkxqYXZhL2xhbmcvU3RyaW5nO0wADXRpcG9JbnNjcmljYW9xAH4AAXhyACVnb3Yuc2VmbWcuc2ljYWYudXRpbC5kYW8uU2ljYWZNb2RlbEFiXaZxCku6h8QCAANaAAZkZWxldGVaAAVkaXJ0eVoABG5vdm94cgAgY29tLnVuaXRlY2gudWZ3LnV0aWwuZGFvLk1vZGVsQWLWuubIeImJZQIAAHhwAAAAAAAAAnQADTE4NjM0ODM1NDA4MTd0AAEx" type="hidden"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="tit" height="25"> Consulta Pública ao Cadastro do Estado de Minas Gerais</td>
+      </tr>
+<tr>
+<td bgcolor="#000000"><img src="/sintegra/images/sicaf/pag_tit_linha.gif" width="7" height="1"></td>
+    </tr>
+</table>
+<!-- Fim Grid ---------------------------------------------- --><span id="mensagem" class="txtcpr"></span>
+    <br><br><table border="0" cellpadding="0" cellspacing="0" width="100%" class="cntbdy">
+<tr>
+<td class="ctnhdr" colspan="2" height="25" width="100%"> Dados Principais</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+            <span id="lblcnpj.identificacaoFormatada" class="txtcpn">CNPJ:</span>
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+          
+          
+            <span><input name="cnpj.identificacaoFormatada" value="07.399.636/0011-79" type="hidden"><span id="cnpj.identificacaoFormatada" class="txtcpro">07.399.636/0011-79</span></span><span><input name="nomeFantasia" value="" type="hidden"><span id="nomeFantasia" class="txtcpro"></span></span>
+</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+            <span id="lblinscricaoEstadual.identificacaoFormatada" class="txtcpn">Inscrição Estadual:</span>
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+            <span><input name="inscricaoEstadual.identificacaoFormatada" value="186348354.08-17" type="hidden"><span id="inscricaoEstadual.identificacaoFormatada" class="txtcpro">186348354.08-17</span></span>
+</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lblenderecoEstabelecimento.sgUf_" class="txtcpn" readonly>UF:</span>
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+          <span readonly><input name="enderecoEstabelecimento.sgUf_" value="MG" type="hidden"><span id="enderecoEstabelecimento.sgUf_" class="txtcpro">MG</span></span>
+</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+            <span id="lblnomeEmpresarial" class="txtcpn">Nome Empresarial:</span>
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+            <span><input name="nomeEmpresarial" value="DECMINAS DISTRIBUICAO E LOGISTICA S.A." type="hidden"><span id="nomeEmpresarial" class="txtcpro">DECMINAS DISTRIBUICAO E LOGISTICA S.A.</span></span>
+</td>
+        </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="cntbdy">
+<tr>
+<td class="ctnhdr" height="25" width="100%" colspan="2">
+           Informações Complementares
+          </td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lblcnaefPrincipal.descricao" class="txtcpn">CNAE-F Principal:</span> 
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+<span><input name="cnaefPrincipal.descricao" value="4711-3/02 - Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados" type="hidden"><span id="cnaefPrincipal.descricao" class="txtcpro">4711-3/02 - Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados</span></span>    </td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lblcnaefSecundaria.descricao" class="txtcpn">CNAE-F Secundária:</span> 
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+<span><input name="cnaefSecundaria.descricao" value="" type="hidden"><span id="cnaefSecundaria.descricao" class="txtcpro"></span></span>    </td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lbldataInicioInscricao" class="txtcpn">Data de Início de Atividade:</span>
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+          <span><input name="dataInicioInscricao" value="20/03/2006" type="hidden"><span id="dataInicioInscricao" class="txtcpro">20/03/2006</span></span>
+</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lblsituacaoContribuinte.descricao" class="txtcpn">Situação Cadastral:</span>
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+          <span><input name="situacaoContribuinte.descricao" value="Não Habilitado - Baixado" type="hidden"><span id="situacaoContribuinte.descricao" class="txtcpro">Não Habilitado - Baixado</span></span>
+</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lbldataSituacao" class="txtcpn">Data Situação Cadastral:</span>
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+          <span><input name="dataSituacao" value="19/01/2015" type="hidden"><span id="dataSituacao" class="txtcpro">19/01/2015</span></span>
+</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lblregimeRecolhimento.descricao" class="txtcpn">Regime de Recolhimento:</span> 
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+<span><input name="regimeRecolhimento.descricao" value="DEBITO E CREDITO" type="hidden"><span id="regimeRecolhimento.descricao" class="txtcpro">DEBITO E CREDITO</span></span>   
+ 			</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lblmotivoSuspensao.descricao" class="txtcpn">Observações:</span> 
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+<span><input name="motivoSuspensao.descricao" value="NÃO HABILITADO - INSCRIÇÃO ESTADUAL BAIXADA" type="hidden"><span id="motivoSuspensao.descricao" class="txtcpro">NÃO HABILITADO - INSCRIÇÃO ESTADUAL BAIXADA</span></span>   
+ 			</td>
+        </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+          <span id="lblunidadeAuxiliar.descricao" class="txtcpn">unidade auxiliar da CNAE:</span> 
+          </td>
+          <td class="ctnbdy" height="20" width="75%">
+<span><input name="unidadeAuxiliar.descricao" value="" type="hidden"><span id="unidadeAuxiliar.descricao" class="txtcpro"></span></span>   
+ 			</td>
+        </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="cntbdy">
+<tr>
+<td class="ctnhdr" height="25" width="25%"> Dados de Endereço: </td>
+      <td class="ctnftr" colspan="3" height="25" width="75%" align="right">
+             
+      </td>
+    </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+        <span id="lblenderecoEstabelecimento.cep" class="txtcpn" readonly>CEP:</span>
+      </td>
+      <td class="ctnbdy" height="20" width="75%" colspan="3">
+        <span readonly><input name="enderecoEstabelecimento.cep" value="30662050" type="hidden"><span id="enderecoEstabelecimento.cep" class="txtcpro">30662050</span></span>
+      </td>
+    </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+        <span id="lblenderecoEstabelecimento.sgUf_" class="txtcpn" readonly>UF:</span>  
+      </td>
+      <td class="ctnbdy" height="20" width="25%">
+        <span readonly><input name="enderecoEstabelecimento.sgUf_" value="MG" type="hidden"><span id="enderecoEstabelecimento.sgUf_" class="txtcpro">MG</span></span>
+      </td>
+      <td class="txtcpn" height="20" width="15%">
+          <span id="lblenderecoEstabelecimento.nomeMunicipio" class="txtcpn" readonly>Município:</span> 
+      </td>
+      <td class="ctnbdy" height="20" width="35%">
+          <span readonly><input name="enderecoEstabelecimento.nomeMunicipio" value="BELO HORIZONTE" type="hidden"><span id="enderecoEstabelecimento.nomeMunicipio" class="txtcpro">BELO HORIZONTE</span></span>
+      </td>
+    </tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%"> 
+  			<span id="lblenderecoEstabelecimento.nomePovoadoDistrito" class="txtcpn" readonly>Distrito/Povoado:</span>
+			</td>
+			<td class="ctnbdy" height="20" width="75%" colspan="3">
+        <span readonly><input name="enderecoEstabelecimento.nomePovoadoDistrito" value="" type="hidden"><span id="enderecoEstabelecimento.nomePovoadoDistrito" class="txtcpro"></span></span> 
+ 			</td>
+ 		</tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+        <span id="lblenderecoEstabelecimento.nomeBairro" class="txtcpn" readonly>Bairro:</span>
+			</td>
+			<td class="ctnbdy" height="20" width="75%" colspan="3">
+           <span readonly><input name="enderecoEstabelecimento.nomeBairro" value="TIROL" type="hidden"><span id="enderecoEstabelecimento.nomeBairro" class="txtcpro">TIROL</span></span>
+ 			</td>
+ 		</tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%">
+             <span id="lblenderecoEstabelecimento.nomeLogradouro" class="txtcpn" readonly>Logradouro:</span>
+			</td>
+			<td class="ctnbdy" height="20" width="75%" colspan="3">
+             <span readonly><input name="enderecoEstabelecimento.nomeTipoLogradouro" value="RUA" type="hidden"><span id="enderecoEstabelecimento.nomeTipoLogradouro" class="txtcpro">RUA</span></span> <span readonly><input name="enderecoEstabelecimento.nomeLogradouro" value="ANTONIO EUSTAQUIO PIAZZA" type="hidden"><span id="enderecoEstabelecimento.nomeLogradouro" class="txtcpro">ANTONIO EUSTAQUIO PIAZZA</span></span>
+			</td>
+		</tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%" valign="middle">
+          <span id="lblenderecoEstabelecimento.numero" class="txtcpn" readonly>Número:</span>
+			</td>
+      <td class="ctnbdy" height="20" width="75%" colspan="3">
+          <span readonly><input name="enderecoEstabelecimento.numero" value="2725" type="hidden"><span id="enderecoEstabelecimento.numero" class="txtcpro">2725</span></span>
+      </td>
+		</tr>
+<tr class="ctnbdy">
+<td class="txtcpn" height="20" width="25%" valign="middle">
+          <span id="lbltxtComplemento" class="txtcpn" readonly>Complemento:</span>
+			</td>
+      <td class="ctnbdy" height="20" width="75%" colspan="3">
+          <span readonly><input name="txtComplemento" value="" type="hidden"><span id="txtComplemento" class="txtcpro"></span></span>
+      </td>
+	</tr>
+<tr class="ctnbdy">
+<td id="campoTelefone" class="txtcpn" height="20" width="25%">
+      		<span id="lblcomunicacao.telefone" class="txtcpn">Telefone:</span>
+      </td>
+      <td class="ctnbdy" height="20" width="75%" colspan="3">
+      		<span><input name="comunicacao.telefone" value="" type="hidden"><span id="comunicacao.telefone" class="txtcpro"></span></span>
+      </td>
+    </tr>
+</table>
+<script language="javascript" type="text/javascript" src="/ufw/js/unifw_Grid.js"></script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitImageControl.js"></script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitControl.js"></script><script language="JAVASCRIPT" type="text/javascript">
+function formTela_onSubmit(Form){
+return true; 
+}
+</script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_Grid.js"></script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitImageControl.js"></script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitControl.js"></script><script language="JAVASCRIPT" type="text/javascript">
+function formTela_onSubmit(Form){
+return true; 
+}
+</script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitImageControl.js"></script><script language="javascript" type="text/javascript" src="/ufw/js/unifw_SubmitControl.js"></script><script language="javascript" type="text/javascript"><!-- // --->
+</script><form name="formTela" action="/sintegra/ctrl/SINTEGRA/SINTEGRA/CONSULTA_708" method="POST">
+<input name="ACAO" value="" type="hidden"><script language="JavaScript" type="text/javascript">document.formTela.HABILITADO = 1</script><input type="hidden" name="unifwScrollTop" value=""><input type="hidden" name="unifwScrollLeft" value=""><br><a onclick="return genericOnClick(document.formTela,false,'/sintegra/ctrl/SINTEGRA/SINTEGRA/CONSULTA_707','VISUALIZAR','',true,true)" href="#"><img title onmouseover="MM_swapImage('imgDesistir','','/sintegra/images/sicaf/bt_desistir2.gif',0);" alt align="top" name="imgDesistir" class="" src="/sintegra/images/sicaf/bt_desistir.gif" border="0" onmouseout="MM_swapImgRestore();"></a>
+	 </form>
+
+<script language="JAVASCRIPT" type="text/javascript">
+     var index = 0;
+     for (; index < document.formTela.elements.length ;index++){
+         if (document.formTela.elements[index].type != "hidden" && !document.formTela.elements[index].disabled ){
+             document.formTela.elements[index].focus();
+             break;
+         }
+     }
+  </script><script language="javascript" type="text/javascript">
+    setScroll(159,0);
+</script>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+<div id="containerFooter">
+<div id="boxFooter">
+<p style="text-align: center">
+<strong>SEF/MG - Secretaria de Estado de Fazenda de Minas Gerais - Fale Conosco Ligue 155</strong>
+</p>
+</div>
+</div>
+</body>

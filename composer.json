@@ -1,6 +1,7 @@
 {
   "name": "sintegra-php/mg",
   "description": "Consulte gratuitamente CNPJ no site do Sintegra/MG",
+  "keywords": ["sintegra", "mg"],
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -22,6 +23,11 @@
     "psr-4": {
       "SintegraPHP\\MG\\": "src/"
     }
+  },
+  "extra": {
+      "branch-alias": {
+          "dev-master": "1.0-dev"
+      }
   },
   "minimum-stability": "dev"
 }

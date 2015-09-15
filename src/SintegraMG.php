@@ -101,8 +101,14 @@ class SintegraMG
      */
     public static function parser(Crawler $crawler){
 
+
         $params = [
-            'cnpj' => $crawler->filter('#cnpj.identificacaoFormatada')->at
+            'cnpj' => (string) $crawler->filter("input[name='cnpj.identificacaoFormatada']")->attr('value'),
+            'inscricao_estadual' => (string) $crawler->filter("input[name='inscricaoEstadual.identificacaoFormatada']")->attr('value'),
+            'razao_social' => (string) $crawler->filter("input[name='nomeEmpresarial']")->attr('value'),
+            'cnae_principal' => (string) $crawler->filter("input[name='cnaefPrincipal.descricao']")->attr('value'),
+            'data_inscricao' => (string) $crawler->filter("input[name='dataInicioInscricao']")->attr('value'),
+
         ];
 
 

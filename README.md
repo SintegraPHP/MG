@@ -1,5 +1,7 @@
 # Sintegra MG
 
+[![Travis](https://travis-ci.org/SintegraPHP/MG.svg?branch=1.0)](https://travis-ci.org/SintegraPHP/MG)
+
 Consulte gratuitamente CNPJ no site do Sintegra/MG
 
 ### Como utilizar
@@ -31,13 +33,6 @@ $dadosEmpresa = SintegraPHP\MG\SintegraMG::consulta(
     $params['challenge']
 );
 ```
-
-### Gostou? Conheça também
-
-* [CnpjGratis](https://github.com/jansenfelipe/cnpj-gratis)
-* [CpfGratis](https://github.com/jansenfelipe/cpf-gratis)
-* [CepGratis](https://github.com/jansenfelipe/cep-gratis)
-* [Nfephp-serialize](https://github.com/jansenfelipe/nfephp-serialize)
 
 ### License
 

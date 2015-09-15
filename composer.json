@@ -1,24 +1,27 @@
 {
-    "name": "sintegra-php/mg",
-    "description": "Consulte gratuitamente CNPJ no site do Sintegra/MG",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jansen Felipe",
-            "email": "jansen.felipe@gmail.com"
-        }
-    ],
-    "require": {
-        "fabpot/goutte": "~3.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "SintegraPHP\\MG\\": "src/"
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "sintegra-php/mg",
+  "description": "Consulte gratuitamente CNPJ no site do Sintegra/MG",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jansen Felipe",
+      "email": "jansen.felipe@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "ext-gd":"*",
+    "ext-curl":"*",
+    "fabpot/goutte": "~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SintegraPHP\\MG\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
 }

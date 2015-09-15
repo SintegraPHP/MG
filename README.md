@@ -1,4 +1,4 @@
-# SintegraMG
+# Sintegra MG
 
 Consulte gratuitamente CNPJ no site do Sintegra/MG
 
